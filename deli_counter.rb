@@ -9,3 +9,7 @@ def line(current_line)
     puts "The line is currently empty."
   end
 end
+
+def take_a_number(current_line, namne)
+  puts "Welcom, #{name}. You are number #{current_line.size} in line."
+end
