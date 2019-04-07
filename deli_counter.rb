@@ -10,7 +10,7 @@ def line(current_line)
   end
 end
 
-def take_a_number(current_line, namne)
+def take_a_number(current_line, name)
   current_line.push(name)
   puts "Welcome, #{name}. You are number #{current_line.size} in line."
 end
