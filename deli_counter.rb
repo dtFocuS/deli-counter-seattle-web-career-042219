@@ -11,8 +11,6 @@ def line(current_line)
 end
 
 def take_a_number(current_line, namne)
-  if current_line == 0
-    puts " There is "
   current_line.push(name)
-  puts "Welcom, #{name}. You are number #{current_line.size} in line."
+  puts "Welcome, #{name}. You are number #{current_line.size} in line."
 end
