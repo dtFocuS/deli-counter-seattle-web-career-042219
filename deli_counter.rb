@@ -7,6 +7,7 @@ def line(current_line)
   else
     str = "The line is currently:"
     current_line.each_with_index {|name, i| str + " #{i + 1}. #{name}"}
+    puts str
   end
 end
 
